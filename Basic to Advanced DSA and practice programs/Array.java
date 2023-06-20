@@ -66,6 +66,7 @@ class Array
 
     public static int[] moveZerosToEnd(int ar[])
     {
+        //Move all zeros to end of an array without changing the order of non-zero values
          int t=0;
         for(int i=0; i<ar.length; i++)
         {
