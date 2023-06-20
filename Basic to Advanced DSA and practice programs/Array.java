@@ -148,6 +148,7 @@ class Array
 
     public static int[] reverseArray(int[] ar)
     {
+        //Returns reversed array
         int a=0, b=ar.length-1;
         while(a<=b)
         {
